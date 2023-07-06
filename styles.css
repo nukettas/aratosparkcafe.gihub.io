@@ -127,7 +127,7 @@ nav .closeMenu {
   background-size: cover;
   background-position: bottom center;
   height: 100vh;
-  color: #fff;
+  color: #9FB4FF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,14 +144,15 @@ nav .closeMenu {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 252, 127);
+  opacity: 0.2;
   z-index: -1;
 }
 
 .content p {
   font-family: "Montserrat Alternates", sans-serif;
   width: 50ch;
-  color: black;
+  color: #D09CFA;
   font-size: 27px;
   letter-spacing: 1px;
 }
@@ -269,5 +270,14 @@ nav .closeMenu {
     align-items: center;
     justify-content: center;
     line-height: 2rem;
+  }
+
+  .content p {
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+
+  .content {
+    height: 50vh;
   }
 }

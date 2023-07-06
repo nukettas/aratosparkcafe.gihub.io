@@ -122,11 +122,12 @@ nav .closeMenu {
 }
 
 .splitted-container {
+  background-image: url("photos/menu-drinks.png"), url("photos/menu-food.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
+  background-size: contain;
+  background-position: right bottom, left top;
   height: 100vh;
-  color: black;
+  color: #D09CFA;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,30 +142,18 @@ nav .closeMenu {
   position: absolute;
   top: 0;
   left: 0;
+  background-color: rgba(255, 252, 127);
+  opacity: 0.2;
   width: 100%;
   height: 100%;
-  z-index: -1;
-}
-
-.split.left {
-  background: url("photos/menu-food.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom center;
+  z-index: -2;
 }
 
 .splitted-container p {
   font-family: "Montserrat Alternates", sans-serif;
-  color: black;
+  color: #D09CFA;
   font-size: 20px;
   letter-spacing: 1px;
-}
-
-.split.right {
-  background: url("photos/menu-drinks.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: bottom center;
 }
 
 .footer-container {
@@ -223,4 +212,10 @@ nav .closeMenu {
     justify-content: center;
     line-height: 2rem;
   }
+
+  .splitted-container p {
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
 }
