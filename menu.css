@@ -234,4 +234,9 @@ nav .closeMenu {
   .hero img {
     width: 200px;
   }
+
+.splitted-container p {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
 }
